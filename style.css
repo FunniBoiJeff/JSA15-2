@@ -8,12 +8,19 @@ body {
 .logo {
     margin-left: 30%;
 }
+.container {
+    height: 50%;
+}
+
 .navbar{
-    width: 100%;
+    width: 70%;
     display: flex;
+    margin: auto;
     justify-content: space-between;
     font-family:'Poppins', sans-serif ;
     background-image: url('https://preview.uideck.com/items/mate/img/hero-area.jpg');
+    background-repeat: none;
+    background-size: cover;
 }
 
 .navbar ul {
@@ -30,7 +37,7 @@ body {
     font-weight: bold;
 }
 .navbar ul li a{
-    font-weight: 400;
+    font-weight: 300;
     padding: 5px 8px;
     color: white;
     text-decoration: none;
