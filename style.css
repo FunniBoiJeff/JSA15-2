@@ -47,12 +47,12 @@ body {
 }
 
 .navbar ul li a:hover {
-    background-color: turquoise;
+    background-color:  rgb(97,209,179);
     border-radius: 20px;
     transition: all ease-out 0.3s;
 }
 .navbar ul li a:active {
-    background-color: turquoise;
+    background-color:  rgb(97,209,179);
     border-radius: 20px;
     transition: all ease-out 0.3s;
 }
@@ -74,7 +74,7 @@ body {
     margin-bottom: 50px;
 }
 .banner .button {
-    background-color: turquoise;
+    background-color:  rgb(97,209,179);
     border-radius: 30px;
     padding: 10px 35px;
     text-decoration: none;
