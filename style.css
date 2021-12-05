@@ -4,6 +4,7 @@ html {
 body {
     font-family:'Poppins', sans-serif ;
     margin: 0;
+    background-color: darkgray;
 }
 .logo {
     margin-left: 30%;
@@ -13,8 +14,11 @@ body {
     background-image: url('https://preview.uideck.com/items/mate/img/hero-area.jpg');
     background-repeat: none;
     background-size: cover;
+    display: flex;
     text-align: center;
     justify-content: center;
+    position: relative;
+    top: -80px;
 }
 
 .navbar{
@@ -23,7 +27,6 @@ body {
     display: flex;
     margin: auto;
     justify-content: space-between;
-    z-index: 100;
 }
 
 .navbar ul {
@@ -57,9 +60,11 @@ body {
     transition: all ease-out 0.3s;
 }
 .banner {
-    margin-top: 7%;
     text-align: center;
-    height: 300px;
+    height: 535px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .head {
     color: whitesmoke;
@@ -73,20 +78,31 @@ body {
     font-weight: 200;
     margin-bottom: 50px;
 }
-.banner .button {
-    background-color:  rgb(97,209,179);
+.button a {
+    background-color: rgb(97,209,179);
     border-radius: 30px;
-    padding: 10px 35px;
+    padding: 10px 45px;
     text-decoration: none;
+    font-weight: bold;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: whitesmoke;
     cursor: pointer;
-    flex-direction: column;
-    position: relative;
 }
-.banner .button a:hover {
-    background-color: rgba(64, 224, 208, 0.521);
+
+/* button a:hover {
+    background-color: rgba(97, 209, 179, 0.63);
     border-radius: 30px;
-    padding: 10px 35px;
-    transition: all ease-in 0.3s;
+    padding: 10px;
+    transition: all ease-in 0.3s; */
+/* } */
+.section2 {
+    height: 1000px;
+    color: rgb(97,209,179);
+}
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 9000;
+    transition: all 0.3s;
 }
